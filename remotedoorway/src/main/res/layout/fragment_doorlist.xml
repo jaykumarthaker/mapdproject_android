@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/app_background"
+    tools:context="remotedoorway.byteme.com.fragment.DoorListFragment">
+
+
+    <LinearLayout android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:text="@string/tvownerdoorlist" />
+
+        <LinearLayout android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_width="fill_parent">
+
+            <ListView
+                android:id="@+id/lv_fragment_doorlist_ownerdoorlist"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fastScrollAlwaysVisible="true"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/common_google_signin_btn_text_light_pressed"
+            android:text="@string/tvotherdoorlist"/>
+
+        <LinearLayout android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_width="fill_parent">
+
+            <ListView
+                android:id="@+id/lv_fragment_doorlist_otherdoorlist"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fastScrollAlwaysVisible="true">
+
+            </ListView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnGetMoreResults"
+            android:layout_width="fill_parent"
+            android:layout_height="16dp"
+            android:background="@color/common_google_signin_btn_text_dark_focused"
+            android:layout_alignParentBottom="true"
+            android:text="Get more">
+
+            <TextView
+                android:id="@+id/tv_fragment_doorlist_bottomstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

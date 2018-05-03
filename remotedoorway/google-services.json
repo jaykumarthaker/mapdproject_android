@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "994448641337",
+    "firebase_url": "https://chatapp-8f220.firebaseio.com",
+    "project_id": "chatapp-8f220",
+    "storage_bucket": "chatapp-8f220.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994448641337:android:cbef1093ed41c832",
+        "android_client_info": {
+          "package_name": "remotedoorway.byteme.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994448641337-vb75h3uql90gbp3eublv6hutdqlsgc6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu1tsf1vkTJvidfJ9uL7ABpw4Wzu5fmkM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

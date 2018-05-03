@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/friendlistviewcell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true">
+
+
+        <TextView
+            android:id="@+id/tvotherdoorlistdoorname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/switchotherdorrlist" />
+
+        <ImageView
+            android:id="@+id/imgvownerdoorlistdoorimg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/app_icon_large"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/switchotherdorrlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:showText="true"
+            android:textOff="Close"
+            android:textOn="Open"
+            tools:checked="false"
+            android:layout_marginStart="11dp"
+            android:layout_below="@+id/tvotherdoorlistdoorname"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvotherdoorlistownername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:text="ownername"
+        android:layout_marginBottom="11dp"
+        android:layout_alignBottom="@+id/friendlistviewcell"
+        android:layout_alignStart="@+id/friendlistviewcell" />
+</RelativeLayout>

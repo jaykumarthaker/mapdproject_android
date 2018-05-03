@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">A lobscur</string>
+
+    <!-- Navigation Drawer menu labels -->
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+
+
+    <string name="btn_signup_selectimage">Sélectionner une photo de profil</string>
+    <string name="action_sign_in_short">registre</string>
+    <string name="email">Email</string>
+    <string name="et_signup_username">Votre nom</string>
+    <string name="tv_signup_gender">Sélectionnez le sexe</string>
+    <string name="rb_signup_male">Mâle</string>
+    <string name="rb_signup_female">Femelle</string>
+    <string name="et_signup_mobile">Numéro de portable</string>
+    <string name="etsignupconfirmpassword">Confirmez le mot de passe</string>
+    <string name="minimum_password">Mot de passe trop court, entrez au moins 6 caractères!</string>
+    <string name="auth_failed"> Échec de lauthentification, vérifiez votre adresse électronique et votre mot de passe ou inscrivez-vous</string>
+
+
+    <string name="title_activity_login">se connecter</string>
+    <string name="hint_email">Email</string>
+    <string name="etsignuppassword">Mot de passe</string>
+    <string name="btn_login">SIDENTIFIER</string>
+    <string name="btn_link_to_register">Pas un membre? Inscrivez-vous maintenant!</string>
+    <string name="btn_link_to_login">Déjà enregistré. Identifiez-vous!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Réinitialiser lactivité du mot de passe</string>
+    <string name="btn_reset_password">réinitialiser le mot de passe</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="lbl_forgot_password">mot de passe oublié?</string>
+    <string name="forgot_password_msg">Nous avons juste besoin de votre identifiant de courriel enregistré pour vous envoyer des instructions de réinitialisation de mot de passe.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">
+Bonjour fragment vide</string>
+</resources>
